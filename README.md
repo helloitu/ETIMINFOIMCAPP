@@ -3,7 +3,9 @@ Aplicativo Android Criado para uso educacional nas aulas de Educação Física n
 
 -- Componentes utilizados para o desenvolvimento....
           (+) Cordova
+          
           (+) Android Studio
+          
           (+) Graddle (build script)
           
           
