@@ -1,0 +1,164 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+	
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="js/codigo.js"></script>
+		<title>BETA </title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/jquery.scrollgress.min.js"></script>
+		<script src="js/jquery.scrolly.min.js"></script>
+		<script src="js/jquery.slidertron.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-xlarge.css" />
+		</noscript>
+		<title>BETA</title>
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body class="landing">
+
+		<!-- Header -->
+
+		<!-- Banner -->
+
+		<!-- One -->
+			<section id="teste" class="wrapper style1">
+				<div class="container">
+					<header class="major">
+						<h1>ETIM INFO IMC Software</h1>
+						<h2> ► Calculando IMC</h2>
+				          <br>
+				  <h3>O índice de massa corporal (IMC) é amplamente utilizado na avaliação do estado nutricional do individuo, sendo calculado através do peso em quilogramas dividido pela altura em metros quadrados (Kg/m²).</h3>
+				<HR WIDTH=100%> 
+                           
+				        <h1>Peso: <input id="peso"></input>
+				        	<br>
+				        	<br>
+				        	Altura: <input id="altura"></input>
+				        	<h1 class="major"> IMC : <font color="red"><span id="imc">---</span></font>
+				        		<h1> Classificação: <font color="blue"><span id="imcr">---</span></font>
+				        		<br>
+				        		<HR WIDTH=100%> 
+				        			<H3>Frequência Cardíaca</h3>
+				        							        	<br> 
+				        	<br>
+				        	<br>
+				        	<br>
+				        	<h1>Para calcular sua Frequência Cardíaca, use o cronometro abaixo , primeiramente posicione a mão no pulso , incie o cronometro e conte os batimentos durante 15 segundos, após isso,  coloque o resultado abaixo.
+				        		<br>
+				        		<br>
+<span id="counter">00:00:00</span><br>
+<input type="button" value="Parar" onclick="para();"> <input type="button" value="Iniciar" onclick="inicia();"> <input type="button" value="Zerar" onclick="zera();">
+<br>
+<br>
+ Resultado: <input  id="fff"></input> 
+ <br>
+ <br>
+   FC(<font color="lime-green">Frequência Cardíaca</font>):        <font color="red"><span id="ft">---</span></font>
+ <br>
+ <br>
+ 	
+				        		
+				        	
+                          <HR WIDTH=100%>             
+                          		<h3> Frequência Cardiaca Máxima</h3>
+				        		<br>
+				        		<h1>A Frequência Cardíaca Máxima (FCM) é o número máximo de batimentos que seu coração é capaz de efetuar em um minuto. Além de testes laboratoriais para verificar a FCM de um indivíduo, há algumas fórmulas para estimá-la, a mais usada é <font color="red">220 - idade do individuo</font> para o homem, já para a mulher a formula muda, ficando <font color="red">226 - idade</font> </h1>
+
+				        		<h1 class="major"> Sexo:
+				        			<br>
+				        			<br>
+				        <select id="sexo"><p>
+                <option value="1">Homem<p>
+                  <option value="2">Mulher<p>
+                         </select>
+				        		<h1>FCm(Frequência Cardíaca Máxima):<input id="idadi" placeholder="Insira Sua Idade"  ></input>
+				        			<br>
+				        			<br>
+				        			FCm:                 <font color="red"><span id="fcmd">--</span></font>
+				        			<br>
+				        			<br>
+				        			<a href="#teste"><button onclick="imcti()">Validar Teste</button></a>
+
+<HR WIDTH=100%>
+	<section id="main" class="wrapper style1">
+				<div class="container">
+					
+				
+						
+							<!-- Sidebar -->
+								<section id="sidebar">
+									<section>
+										<h2>Testes Físicos</h2>
+										<p>Testes Físicos são testes realizados para determinar o seu desempenho em aspectos Físicos<br>
+											<h3><font color="red">--- ></font> Flexão</h3><h1> Consiste em fazer baixar o corpo de forma uniforme até que o peito fique a uma<br> mão travessa do solo, sem lhe tocar e de seguida regressar a posição inicial. Este exercício está <br>voltado para o desenvolvimento do músculos peitorais e do tríceps, com benefícios auxiliares<br> para músculos como deltoide, serrátil anterior e coracobraquial. Esse exercício é básico para<br> treinamento em academias e, especialmente, para treinamento militar. </p></h1>
+										<footer>
+											<img src="images/flexao.jpeg">
+											<ul class="actions">
+												<li><a href="http://pt.wikipedia.org/wiki/Flex%C3%A3o" class="button small alt">Ler Mais sobre Flexão</a></li>
+											</ul>
+										</footer>
+										<HR WIDTH=100%>
+										<h3><font color="red">--- ></font> Abdominal</h3><h1> Abdominal supra é o exercício onde você deita no solo, flexiona (dobra) os joelhos coloca as mãos cruzadas na frente do tronco, após este procedimento flexiona-se à frente fazendo o peito se aproximar das coxas voltando a deitar-se novamente. As mãos poderão ser atrás da nuca com os dedos entrelaçados. O exercício abdominal é um dos mais conhecidos exercícios para desenvolvimento e fortalecimento da musculatura abdominal, principalmente do músculo reto abdominal.
+										<br>
+										<br>
+										<img src="images/abdominal.jpeg">
+											<ul class="actions">
+												<li><a href="http://pt.wikipedia.org/wiki/Flex%C3%A3o" class="button small alt">Ler Mais sobre Flexão</a></li>
+											</ul>
+
+
+
+									</h3>
+						         </section>
+						     </section>
+						 </section>
+	
+	<br>
+
+	Abdominais <input id="abdominal"></input> 
+	<br>
+	<br>
+	Flexões <input id="flexao" ></input> 
+<br>
+	 Obs:<font color="red"> Faça cada exercicio durante 1 min , e insira o resultado no espaço ao lado.</font>
+  <br>
+  <br>
+<h1> -----------------------------------------------------------
+	<br>
+	<br>
+  Sua Classificação no teste de <font color="blue">Abdominais</font> é            <font color="red"><span id="resultadoabdominal">---</span></font>
+
+  <br>
+  <br>
+Sua Classificação no teste de <font color="blue">Flexão</font> é  <font color="red"><span id="resultadoflexao">---</span></font>
+		<br>
+		<br>
+		<button onclick="fisicos()">Validar Testes Físicos</button>		   
+					</header>
+			</section>
+
+			
+		
+		<!-- Footer -->
+			<footer id="footer">
+				<span class="copyright">
+					&copy; Copyright. All rights reserved. Design by Guilherme</a>
+				</span>
+			</footer>
+
+	</body>
+</html>

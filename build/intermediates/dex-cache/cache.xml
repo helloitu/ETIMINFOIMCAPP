@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Guilherme Cesar\Desktop\EmbeddedCorovaWebViewDemo-master\ETIMinfoAPP\app\libs\cordova-4.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b1666ae2052034c2181c8088fe71d29e3f577a9a">
+        <dex dex="C:\Users\Guilherme Cesar\Desktop\EmbeddedCorovaWebViewDemo-master\ETIMinfoAPP\app\build\intermediates\pre-dexed\etiminfoappimc\debug\cordova-4.0.0-66d2761e8030519255ce38f8211d33537f547bf7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Guilherme Cesar\Desktop\EmbeddedCorovaWebViewDemo-master\ETIMinfoAPP\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\libs\internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="C:\Users\Guilherme Cesar\Desktop\EmbeddedCorovaWebViewDemo-master\ETIMinfoAPP\app\build\intermediates\pre-dexed\etiminfoappimc\debug\internal_impl-22.1.1-855e3a642bf8116949229d433e66ca6d272976b6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Guilherme Cesar\Desktop\EmbeddedCorovaWebViewDemo-master\ETIMinfoAPP\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="C:\Users\Guilherme Cesar\Desktop\EmbeddedCorovaWebViewDemo-master\ETIMinfoAPP\app\build\intermediates\pre-dexed\etiminfoappimc\debug\classes-04968c0c72db14486ef8e13ce301ed62bd6e07fb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Guilherme Cesar\Desktop\EmbeddedCorovaWebViewDemo-master\ETIMinfoAPP\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="C:\Users\Guilherme Cesar\Desktop\EmbeddedCorovaWebViewDemo-master\ETIMinfoAPP\app\build\intermediates\pre-dexed\etiminfoappimc\debug\classes-9be672012e258c85b117148639e562f637a9f2db.jar" />
+    </item>
+    <item
+        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.1.1\support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="C:\Users\Guilherme Cesar\Desktop\EmbeddedCorovaWebViewDemo-master\ETIMinfoAPP\app\build\intermediates\pre-dexed\etiminfoappimc\debug\support-annotations-22.1.1-698f9e7179e3fde94c6a0d0998c2e81a6bdd81b7.jar" />
+    </item>
+
+</items>
